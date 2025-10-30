@@ -1,0 +1,82 @@
+body { 
+    font-family: "Roboto" sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+a {
+cursor: pointer;
+}
+/* #region logo */
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    line-height: 1.16;
+    font-style: bold;
+    color: inherit;
+}
+.text-raleway {
+    color: #4D5AE5;
+}
+/* #endregion logo */
+/* #region header */
+.header-studio {
+    color: #2E2F42;
+}
+.header-studio:active {
+    color: #4D5AE5;
+}
+.header-portfolio:active {
+    color: #4D5AE5;
+}
+.header-contacts:active {
+    color: #4D5AE5;
+}
+.contacts .mail:hover,
+.contacts .mail:focus {
+color: #404BBF;
+}
+.contacts .telnumber:hover,
+.contacts .telnumber:focus {
+    color: #404BBF;
+}
+/* #endregion header */
+/* #region hero */
+h1 {
+    font-style: bold;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 2%;
+    color: #ffff;
+    text-align: center;
+    background-color: #2E2F42;
+    
+}
+.hero-button {
+    font-style: medium;
+    background-color: #4D5AE5;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+/* #endregion hero */
+/* #region benefits */
+h3 {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    font-style: bold;
+}
+
+/* #endregion benefits */
