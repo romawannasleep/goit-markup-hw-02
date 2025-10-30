@@ -4,6 +4,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #ffff;
 
 }
 
@@ -15,17 +16,20 @@ a {
 cursor: pointer;
 color: #2E2F42;
 text-decoration: none;
+font-style: normal;
 }
 /* #region logo */
 .logo {
-    font-family: "Raleway";
+    font-family: "Raleway" sans-serif;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     font-style: bold;
-    color: inherit;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
 }
 .text-raleway {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 /* #endregion logo */
 /* #region header */
@@ -35,11 +39,24 @@ text-decoration: none;
 .header-studio:active {
     color: #4D5AE5;
 }
+.header-studio:hover,
+.header-studio:focus {
+    color: #404bbf;
+
+}
 .header-portfolio:active {
     color: #4D5AE5;
 }
+.header-portfolio:hover,
+.header-portfolio:focus {
+    color: #404bbf;
+}
 .header-contacts:active {
     color: #4D5AE5;
+}
+.header-contacts:hover,
+.header-contacts:focus {
+    color: #404bbf;
 }
 .contacts .mail:hover,
 .contacts .mail:focus {
@@ -69,6 +86,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    cursor: pointer;
 
 }
 /* #endregion hero */
