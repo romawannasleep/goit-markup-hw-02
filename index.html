@@ -8,7 +8,7 @@
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" 
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -19,13 +19,13 @@
     <header class="page-header">
       <nav class="page-nav">
         <a class="logo" href="./index.html">Web<span class="text-raleway">Studio</span></a>
-        <ul class="header-list">
+        <ul class="header-links">
           <li class="header-studio"><a href="./index.html">Studio</a></li>
           <li class="header-portfolio"><a href="./index.html">Portfolio</a></li>
           <li class="header-contacts"><a href="./index.html">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="address">
         <ul class="contacts">
           <li>
             <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -39,8 +39,8 @@
     <!-- #endregion header -->
     <main>
       <!-- #region benefits -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
+      <section class="hero">
+        <h1 class="hero-text">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-button">Order Service</button>
       </section>
       <section>
@@ -54,22 +54,22 @@
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="benefits-factor">Punctuality</h3>
+            <p class="sub-benefits-factor">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="benefits-factor">Diligence</h3>
+            <p class="sub-benefits-factor">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="benefits-factor">Technologies</h3>
+            <p class="sub-benefits-factor">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -78,12 +78,12 @@
       </section>
       <!-- #endregion benefits -->
       <!-- #region team -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="team">
+        <h2 class="our-team">Our Team</h2>
         <ul>
           <li>
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member">Mark Guerrero</h3>
+            <p class="member-position">Product Designer</p>
             <img
               src="./images/our-team/mark.jpg"
               alt="Mark Guerrero"
@@ -92,8 +92,8 @@
             />
           </li>
           <li>
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-member">Tom Ford</h3>
+            <p class="member-position">Frontend Developer</p>
             <img
               src="./images/our-team/tom.jpg"
               alt="Tom Ford"
@@ -102,8 +102,8 @@
             />
           </li>
           <li>
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-member">Camila Garcia</h3>
+            <p class="member-position">Marketing</p>
             <img
               src="./images/our-team/camila.jpg"
               alt="Camila Garcia"
@@ -125,11 +125,11 @@
       </section>
       <!-- #endregion team -->
        <section>
-        <h2>Our Portfolio</h2>
+        <h2 class="our-portfolio">Our Portfolio</h2>
         <ul>
           <li>
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio-component">Banking App</h3>
+            <p class="component-description">App</p>
             <img src="./images/banking-app.jpg"
             alt="banking-app"
             height="300"
@@ -137,38 +137,38 @@
             />
           </li>
           <li>
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-component">Cashless Payment</h3>
+            <p class="component-description">Marketing</p>
             <img src="./images/cashless-payment.jpg" alt="cashless-payment"
              height="300"
             width="360"
             />
           </li>
           <li>
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio-component">Meditation App</h3>
+            <p class="component-description">App</p>
             <img src="./images/meditation-app.jpg" alt="meditation-app"
             height="300"
             width="360" >
           </li>
           <li>
-            <h3>Taxi Service</h3>
+            <h3 class="portfolio-component">Taxi Service</h3>
             <p>Marketing</p>
             <img src="./images/taxi-service.jpg" alt="taxi-service"
             height="300"
             width="360">
           </li>
           <li>
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="portfolio-component">Screen Illustrations</h3>
+            <p class="component-description">Design</p>
             <img src="./images/screen-illustrations.jpg" alt="screen-illustrations"
             height="300"
             width="360"
             />
           </li>
           <li>
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-component">Online Courses</h3>
+            <p class="component-description">Marketing</p>
             <img src="./images/online-courses.jpg" alt="online-courses"
             height="300"
             width="360" 
@@ -177,9 +177,9 @@
         </ul>
        </section>
     </main>
-    <footer>
-      <a class="logo" href="./index.html"><span class="text-raleway">Web</span>Studio</a>
-      <p>
+    <footer class="footer">
+      <a class="logo" href="./index.html">Web<span class="text-raleway">Studio</span></a>
+      <p class="footer-paragraph">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
