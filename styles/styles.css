@@ -13,6 +13,7 @@ ul {
 }
 a {
 cursor: pointer;
+text-decoration: none;
 }
 /* #region logo */
 .logo {
