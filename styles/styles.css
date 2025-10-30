@@ -14,6 +14,7 @@ ul {
 a {
 cursor: pointer;
 text-decoration: none;
+color: #2E2F42;
 }
 /* #region logo */
 .logo {
