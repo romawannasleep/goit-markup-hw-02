@@ -63,24 +63,14 @@ body {
 .address {
     font-style: normal;
 }
-.mail {
+.address-component {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail:hover,
-.mail:focus {
-    color: #404bbf;
-}
-.telnumber {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.telnumber:hover,
-.telnumber:focus {
+.address-component:hover,
+.address-component:focus {
     color: #404bbf;
 }
 /* #endregion header */
@@ -145,12 +135,6 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.member-position {
-    font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
