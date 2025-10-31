@@ -101,14 +101,14 @@ body {
 }
 /* #endregion section-1 */
 /* #region section-2 */
-.benefits-factor {
+.title-one {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.sub-benefits-factor {
+.paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
